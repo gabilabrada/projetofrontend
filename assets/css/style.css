@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Franklin Gothic Demi';
+    src: url(../fontes/franklin-gothic-demi-maisfontes.6330/franklin-gothic-demi.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Book';
+    src: url(../fontes/franklin-gothic-book-regular_FjOLm/Franklin\ Gothic\ Book\ Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Medium';
+    src: url(../fontes/franklin-gothic-medium-maisfontes.6331/franklin-gothic-medium.ttf) format('truetype');
+}
+
+body {
+    padding-top: 100px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1.2rem;
+    font-family: 'Franklin Gothic Medium';
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.hero-section {
+    background-image: url('../img/fundo.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    padding: 100px 0;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #407343b8; 
+    z-index: 1;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-text h1 {
+    font-family: 'Franklin Gothic Demi';
+    max-width: 400px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    border-left: 5px solid white;
+    padding-left: 20px;
+}
+
+.hero-text p {
+    font-family: 'Franklin Gothic Book';
+    max-width: 600px;
+    font-size: 18px;
+}
+
+.hero-logo-faded {
+    opacity: 0.9; 
+    width: 500px;
+}
+
+.info-content{
+    margin-top: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.info-text h1 {
+    font-family: 'Franklin Gothic Demi';
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #3B753B;
+}
+
+.info-text p {
+    font-family: 'Franklin Gothic Book';
+    font-size: 18px;
+}
+
+.info-logo-segtrabalho {
+    max-width: 100%;
+    height: auto;
+}
+
+.destaque {
+    color: #407343;
+    font-style: italic;
+}
+
+.oqfazemos-section {
+    background-color: #407343;
+}
+
+.oqfazemos-content {
+    margin-top: 60px;
+    position: relative;
+    z-index: 2;
+}
+
+.oqfazemos-text {
+    margin-top: 60px;
+}
+
+.oqfazemos-text h1{
+    font-family: 'Franklin Gothic Demi';
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.oqfazemos-text p {
+    font-family: 'Franklin Gothic Book';
+    font-size: 18px;
+    color: white;
+    margin-bottom: 70px;
+}
+
+.missao-section {
+    background-image: url('../img/foto.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: white;
+    padding: 60px 0;
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+}
+
+.missao-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #407343b8; 
+    z-index: 1;
+}
+
+.missao-content {
+    position: relative;
+    z-index: 2;
+}
+
+.missao-text h1 {
+    font-family: 'Franklin Gothic Demi';
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.missao-text p {
+    font-family: 'Franklin Gothic Book';
+    font-size: 18px;
+}
+
+.servicos-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.servicos-text h1{
+    color: #3B753B;
+    font-family: 'Franklin Gothic Demi';
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-astbr {
+    width: 110px;
+    margin-right: 10px;  
+}
+
+.servicos-text p {
+    font-family: 'Franklin Gothic Book';
+    font-size: 19px;
+    color: white;
+}
+
+.servicos h5 {
+    font-family: 'Franklin Gothic Medium';
+    font-size: 23px;
+    color: white;
+}
+
+.servicos {
+    background-color: #407343;
+    border-radius: 8px;
+    padding: 25px 30px;
+    margin-bottom: 35px;
+}
+
+.empresas-section {
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.empresas-text h1 {
+    color: #3B753B;
+    font-family: 'Franklin Gothic Demi';
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.empresas-img {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo-empresas {
+    width: 200px; 
+    height: auto;  
+    margin: 10px 15px;
+}
